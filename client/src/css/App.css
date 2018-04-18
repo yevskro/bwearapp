@@ -1,0 +1,17 @@
+body{
+  background-color: #F5EED4;
+  font-family: 'Bodoni MT';
+  font-size: '17px';
+  color: #212528;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+footer > label {
+  color: #38A79E;
+  font-size: 13px;
+  margin: 5px 5px;
+}

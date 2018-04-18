@@ -1,0 +1,165 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 10,
+    "passes": 9,
+    "pending": 0,
+    "failures": 1,
+    "start": "2018-01-26T15:38:53.219Z",
+    "end": "2018-01-26T15:38:53.482Z",
+    "duration": 263
+  },
+  "tests": [
+    {
+      "title": "can be required and initiated",
+      "fullTitle": "card_addresses model can be required and initiated",
+      "duration": 17,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can be found by id",
+      "fullTitle": "card_addresses model can be found by id",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can be found by object properties",
+      "fullTitle": "card_addresses model can be found by object properties",
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'state' of undefined\n    at CardAddressModel.findBy (test\\models\\card_addresses.js:33:30)\n    at Query.db.query (models\\model.js:53:9)\n    at Query.handleReadyForQuery (node_modules\\pg\\lib\\query.js:126:10)\n    at Connection.<anonymous> (node_modules\\pg\\lib\\client.js:163:19)\n    at Socket.<anonymous> (node_modules\\pg\\lib\\connection.js:117:12)\n    at addChunk (_stream_readable.js:263:12)\n    at readableAddChunk (_stream_readable.js:250:11)\n    at Socket.Readable.push (_stream_readable.js:208:10)\n    at TCP.onread (net.js:594:20)",
+        "message": "Cannot read property 'state' of undefined",
+        "uncaught": true
+      }
+    },
+    {
+      "title": "can be required and binded to a database",
+      "fullTitle": "Model can be required and binded to a database",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can query all",
+      "fullTitle": "Model can query all",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can find by an object properties",
+      "fullTitle": "Model can find by an object properties",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can find by an id",
+      "fullTitle": "Model can find by an id",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can create object",
+      "fullTitle": "Model can create object",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can delete",
+      "fullTitle": "Model can delete",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can update by an object properties",
+      "fullTitle": "Model can update by an object properties",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "can be found by object properties",
+      "fullTitle": "card_addresses model can be found by object properties",
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'state' of undefined\n    at CardAddressModel.findBy (test\\models\\card_addresses.js:33:30)\n    at Query.db.query (models\\model.js:53:9)\n    at Query.handleReadyForQuery (node_modules\\pg\\lib\\query.js:126:10)\n    at Connection.<anonymous> (node_modules\\pg\\lib\\client.js:163:19)\n    at Socket.<anonymous> (node_modules\\pg\\lib\\connection.js:117:12)\n    at addChunk (_stream_readable.js:263:12)\n    at readableAddChunk (_stream_readable.js:250:11)\n    at Socket.Readable.push (_stream_readable.js:208:10)\n    at TCP.onread (net.js:594:20)",
+        "message": "Cannot read property 'state' of undefined",
+        "uncaught": true
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "can be required and initiated",
+      "fullTitle": "card_addresses model can be required and initiated",
+      "duration": 17,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can be found by id",
+      "fullTitle": "card_addresses model can be found by id",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can be required and binded to a database",
+      "fullTitle": "Model can be required and binded to a database",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can query all",
+      "fullTitle": "Model can query all",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can find by an object properties",
+      "fullTitle": "Model can find by an object properties",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can find by an id",
+      "fullTitle": "Model can find by an id",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can create object",
+      "fullTitle": "Model can create object",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can delete",
+      "fullTitle": "Model can delete",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "can update by an object properties",
+      "fullTitle": "Model can update by an object properties",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+#auth-signin-container{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#auth-signup-container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#auth-signin-container > form{
+    font-family: 'Josefin Sans';
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#signout-contianer > form{
+    font-family: 'Josefin Sans';
+    height: 400px;
+    flex-direction: column;
+    width: 300px;
+}
+#auth-header{
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-size: 30px;
+    line-height: 2;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#lbl-new-to{
+    margin: auto auto;
+    text-align: center;
+    color: #748080;
+    cursor: pointer;
+}
+#lbl-email, #lbl-password{
+    font-weight: 1000;
+    font-size: 14px;
+    line-height: 29px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.lbl-auth {
+    font-weight: 1000;
+    font-size: 14px;
+    line-height: 29px;
+    width: 85%;
+    margin: 0 auto;  
+}
+
+form > input {
+    font-family: 'Josefin Sans';
+    font-size: 100%;
+    background-color: rgb(250,255,189);
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin: 2px 2px;
+    height: 30px;
+    padding: 3px 7px;
+    line-height: normal;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    opacity: 0.89;
+    width: 85%;
+    margin: 0 auto;
+}
+form > input.button{
+    width: 100%;
+    height: 30px;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    border-width: 1px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+form > input:hover{
+    opacity: 1;
+}
+
+#forgot-password {
+    color: #38A79E;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+#span-sign-up {
+    color: #38A79E;
+    cursor: pointer;
+    font-weight: 400;
+}

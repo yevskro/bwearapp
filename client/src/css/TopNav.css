@@ -1,0 +1,16 @@
+#topnav-search-input::-webkit-input-placeholder {
+    font-style: italic;
+    text-align: right;
+}
+#topnav-search-input:-moz-placeholder {
+    font-style: italic;
+    text-align: right;  
+}
+#topnav-search-input::-moz-placeholder {
+    font-style: italic;
+    text-align: right;  
+}
+#topnav-search-input:-ms-input-placeholder {  
+    font-style: italic;
+    text-align: right; 
+}
